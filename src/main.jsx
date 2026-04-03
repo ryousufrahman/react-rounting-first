@@ -8,6 +8,7 @@ import NewApp from './Components/NewApp.jsx';
 import Root from './Components/Root.jsx';
 import Home from './Components/Home.jsx';
 import Mobiles from './Components/Mobiles.jsx';
+import Laptop from './Laptop.jsx';
 
 const router = createBrowserRouter([
  {
@@ -16,25 +17,13 @@ const router = createBrowserRouter([
 
   children : [
    {index : true , Component : Home},
+   
    { path : 'mobiles' , element : <Mobiles></Mobiles>} ,
-   {path : 'NewApp' , element: <NewApp></NewApp>}
+   {path : 'NewApp' , element: <NewApp></NewApp>} ,
+   { path : 'lap' , element : <Laptop></Laptop>}
 
 
     ]
- } ,
-  
- {
-  path : 'about',
-  element : <div>About section</div>,
-  
- } ,
- {
-  path : 'app',
-  Component: App
- } ,
- {
-  path : 'app2',
-  element : <NewApp></NewApp>
  }
 ])
 
