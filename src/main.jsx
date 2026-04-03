@@ -16,7 +16,7 @@ const router = createBrowserRouter([
 
   children : [
    {index : true , Component : Home},
-   { path : 'mobile' , element : <Mobiles></Mobiles>} ,
+   { path : 'mobiles' , element : <Mobiles></Mobiles>} ,
    {path : 'NewApp' , element: <NewApp></NewApp>}
 
 
