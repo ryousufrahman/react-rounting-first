@@ -5,6 +5,7 @@ import Sidebar from '../Sidebar';
 import Footer from './Footer';
 import NormalForm from '../FormHook/NormalForm'
 import ActionForm from '../FormHook/ActionForm';
+import Controllod from '../FormHook/Controllod';
 
 const Root = () => {
     return (
@@ -22,7 +23,8 @@ const Root = () => {
 
         <div>
            {/* <NormalForm></NormalForm> */}
-           <ActionForm></ActionForm>
+           {/* <ActionForm></ActionForm> */}
+           <Controllod></Controllod>
         </div>
         
         
