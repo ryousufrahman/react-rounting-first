@@ -4,6 +4,7 @@ import { Outlet } from 'react-router';
 import Sidebar from '../Sidebar';
 import Footer from './Footer';
 import NormalForm from '../FormHook/NormalForm'
+import ActionForm from '../FormHook/ActionForm';
 
 const Root = () => {
     return (
@@ -20,7 +21,8 @@ const Root = () => {
         </div>
 
         <div>
-           <NormalForm></NormalForm>
+           {/* <NormalForm></NormalForm> */}
+           <ActionForm></ActionForm>
         </div>
         
         
